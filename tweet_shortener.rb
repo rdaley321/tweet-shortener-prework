@@ -19,6 +19,8 @@ def word_substituter(tweet)
   words_hash = dictionary
   print words_hash.keys
   tweet_array.each do |word|
+    words_hash.keys.each do |key|
+    end
   end
 end
 
