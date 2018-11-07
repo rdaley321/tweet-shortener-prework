@@ -22,4 +22,4 @@ def word_substituter(tweet)
   end
 end
 
-word_substituter
+word_substituter(too)
