@@ -19,7 +19,7 @@ def word_substituter(tweet)
   words_hash = dictionary
   tweet_array.each_with_index do |word, index|
     words_hash.keys.each do |key|
-      puts word key
+      puts word
       if word == key.to_s
         tweet_array[index] = key.to_s
       end
