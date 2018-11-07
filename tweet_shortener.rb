@@ -19,7 +19,7 @@ def word_substituter(tweet)
   words_hash = dictionary
   tweet_array.each_with_index do |word, index|
     words_hash.keys.each do |key|
-      if word.lo == key.to_s
+      if word.downcase == key.to_s
         tweet_array[index] = words_hash[key]
       end
     end
