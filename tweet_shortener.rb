@@ -27,4 +27,6 @@ def word_substituter(tweet)
   tweet_array.join(" ")
 end
 
-word_substituter("Hey how are you doing two two too")
+def bulk_tweet_shortener(array)
+  
+end
