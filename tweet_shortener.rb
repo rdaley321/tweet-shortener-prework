@@ -17,13 +17,13 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   words_hash = dictionary
-  tweet_array.each_ do |word|
+  tweet_array.each_with_index do |word, index|
     words_hash.keys.each do |key|
-      if word == key 
-        
+      if word == key.to_s
+        tweet_array[index] = key.to_s
       end
     end
   end
 end
 
-word_substituter("Hey")
+word_substituter("Hey how are you doing two two too")
