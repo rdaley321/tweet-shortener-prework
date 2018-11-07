@@ -17,7 +17,7 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   words_hash = dictionary
-  puts words_hash
+  puts words_hash.keys
   tweet_array.each do |word|
   end
 end
