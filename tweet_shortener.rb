@@ -21,7 +21,7 @@ def word_substituter(tweet)
     words_hash.keys.each do |key|
       if word == key.to_s
         tweet_array[index] = key.to_s
-        print tweet_array.join("")
+        print tweet_array.join(" ")
       end
     end
   end
