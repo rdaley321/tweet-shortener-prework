@@ -17,9 +17,11 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   words_hash = dictionary
-  print words_hash.keys
-  tweet_array.each do |word|
+  tweet_array.each_ do |word|
     words_hash.keys.each do |key|
+      if word == key 
+        
+      end
     end
   end
 end
