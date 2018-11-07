@@ -21,3 +21,5 @@ def word_substituter(tweet)
   tweet_array.each do |word|
   end
 end
+
+word_substituter
