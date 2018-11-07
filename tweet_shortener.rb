@@ -24,7 +24,7 @@ def word_substituter(tweet)
       end
     end
   end
-  print tweet_array.join(" ")
+  tweet_array.join(" ")
 end
 
 word_substituter("Hey how are you doing two two too")
